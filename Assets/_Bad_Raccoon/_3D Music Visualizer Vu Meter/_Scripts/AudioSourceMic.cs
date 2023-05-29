@@ -26,7 +26,7 @@ public class AudioSourceMic : MonoBehaviour
 
     private string selectedDevice;
 
-    GameObject dialog = null;
+    //GameObject dialog = null;
 
     void Start(){
         #if PLATFORM_ANDROID
