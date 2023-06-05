@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEditor;
 
+[RequireComponent(typeof(AudioLowPassFilter))]
+[RequireComponent(typeof(AudioDistortionFilter))]
 [RequireComponent(typeof(AudioSource))]
 public class AudioFilterController : MonoBehaviour
 {
