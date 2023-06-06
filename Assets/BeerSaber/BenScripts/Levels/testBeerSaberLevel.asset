@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ecc063cccc46f49ba48248c4984877, type: 3}
+  m_Name: testBeerSaberLevel
+  m_EditorClassIdentifier: 
+  slices:
+  - spawnBeat: 0
+    topRight:
+      Color: 0
+      IsEmpty: 1
+    topLeft:
+      Color: 0
+      IsEmpty: 1
+    bottomRight:
+      Color: 0
+      IsEmpty: 1
+    bottomLeft:
+      Color: 0
+      IsEmpty: 0
+  - spawnBeat: 4
+    topRight:
+      Color: 1
+      IsEmpty: 0
+    topLeft:
+      Color: 0
+      IsEmpty: 1
+    bottomRight:
+      Color: 0
+      IsEmpty: 1
+    bottomLeft:
+      Color: 0
+      IsEmpty: 1
+  - spawnBeat: 8
+    topRight:
+      Color: 0
+      IsEmpty: 1
+    topLeft:
+      Color: 0
+      IsEmpty: 0
+    bottomRight:
+      Color: 0
+      IsEmpty: 1
+    bottomLeft:
+      Color: 0
+      IsEmpty: 1
+  - spawnBeat: 12
+    topRight:
+      Color: 0
+      IsEmpty: 1
+    topLeft:
+      Color: 0
+      IsEmpty: 1
+    bottomRight:
+      Color: 1
+      IsEmpty: 0
+    bottomLeft:
+      Color: 0
+      IsEmpty: 1

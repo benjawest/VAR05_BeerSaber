@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class RhythmTargetManager: MonoBehaviour
+public class RhythmTargetManager : MonoBehaviour
 {
     public GameObject movingTarget; // This is the object that will move from it's spwn to the target
     public GameObject target; // This is the target that the moving object will move towards
@@ -18,7 +18,7 @@ public class RhythmTargetManager: MonoBehaviour
     // => this arrow shows that this is a "property".
     private double elapsedAudioTime => AudioSettings.dspTime - audioStartTime; // This is the time since the audio source started playing
     private float elapsedTimeMinutes => (float)(elapsedAudioTime / 60); // This is the time since the audio source started playing, in minutes
-    private int currentBeat => Mathf.FloorToInt(elapsedTimeMinutes * BPM); // This is the current beat, rounded down
+    public int currentBeat => Mathf.FloorToInt(elapsedTimeMinutes * BPM); // This is the current beat, rounded down
 
     private void Start()
     {
