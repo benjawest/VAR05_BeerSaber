@@ -8,13 +8,12 @@ public class BeerSaberLevelManager : MonoBehaviour
 
     private int currentBeat = -1;
     private GameObject[] spawnedNotes;
-    public RhythmTargetManager rhythmTargetManager;
     public GameObject targetPrefab;
+    public Metronome metronome;
 
     private void Update()
     {
-        int newBeat = rhythmTargetManager.currentBeat;
-
+        int newBeat = metronome.currentBeat;
         if (newBeat != currentBeat)
         {
             currentBeat = newBeat;
