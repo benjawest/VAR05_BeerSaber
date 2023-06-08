@@ -17,261 +17,421 @@ MonoBehaviour:
   slices:
   - spawnBeat: 0
     topRight:
-      color: 1
+      color: 0
       isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 4
     topRight:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 8
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
-      isEmpty: 0
-    bottomLeft:
-      color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 12
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
-      color: 0
-      isEmpty: 1
+      color: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
-      color: 1
-      isEmpty: 0
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 16
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 20
     topRight:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 24
     topRight:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
-      color: 0
-      isEmpty: 1
+      color: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 28
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
-      color: 0
-      isEmpty: 1
+      color: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 32
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
-      isEmpty: 1
-    bottomLeft:
-      color: 1
       isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 36
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
-      color: 1
-      isEmpty: 0
-    bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
+    bottomRight:
+      color: 0
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 40
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
-      color: 1
-      isEmpty: 0
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 44
     topRight:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 48
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 1
       isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 52
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
-      color: 1
-      isEmpty: 0
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 56
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
-      color: 1
+      color: 0
       isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 60
     topRight:
-      color: 0
-      isEmpty: 1
-    topLeft:
       color: 1
       isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 64
     topRight:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
-      color: 1
-      isEmpty: 0
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 68
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
-      isEmpty: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 72
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
-      color: 1
-      isEmpty: 0
-    bottomLeft:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0
   - spawnBeat: 76
     topRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     topLeft:
-      color: 1
-      isEmpty: 0
+      color: 0
+      isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomRight:
       color: 0
       isEmpty: 1
+      spawnTime: 0
+      despawnTime: 0
     bottomLeft:
       color: 0
-      isEmpty: 1
+      isEmpty: 0
+      spawnTime: 0
+      despawnTime: 0

@@ -6,23 +6,35 @@ public class BeatMapLevelManager : MonoBehaviour
     public Transform gridParent; // Parent transform for the grid
     public float spacing = 1f; // Spacing between the notes
 
+    public GameObject notePrefab;
+    public GameObject ringPrefab;
+    public Metronome metronome;
+
     private int currentBeat = -1;
     private GameObject[] spawnedNotes;
-    public GameObject targetPrefab;
-    public Metronome metronome;
+    private GameObject spawnedRing;
+    public int beatDistance = 2; // Number of beats before the notes to spawn the ring
+    private float ringScaleDuration; // Duration to scale down the ring
+    private float ringElapsedTime; // Elapsed time for scaling the ring
+    private bool isScalingRing = false; // Flag to indicate if ring scaling is in progress
+    // Scale factor for the ring
+    public float ringInitScaleFactor = 3f;
 
     private void Update()
     {
         int newBeat = metronome.currentBeat;
-        if (newBeat != currentBeat)
+        if (newBeat != currentBeat) // If the beat has changed
         {
             currentBeat = newBeat;
 
             // Destroy previously spawned notes
             DestroySpawnedNotes();
+            
 
             // Find the slice that matches the current beat
             BeatMapLevel.Slice currentSlice = null;
+            BeatMapLevel.Slice nextSlice = null;
+
             foreach (BeatMapLevel.Slice slice in levelData.slices)
             {
                 if (slice.spawnBeat == currentBeat)
@@ -30,14 +42,55 @@ public class BeatMapLevelManager : MonoBehaviour
                     currentSlice = slice;
                     break;
                 }
+                else if (slice.spawnBeat == currentBeat + beatDistance)
+                {
+                    nextSlice = slice;
+                }
             }
+
 
             if (currentSlice != null)
             {
+                Debug.Log($"Current Beat: {currentBeat}");
+               
                 // Spawn the notes for the current slice
                 SpawnNotes(currentSlice);
             }
+
+            if (nextSlice != null)
+            {
+                // Spawn the ring for the next slice
+                SpawnRing(nextSlice);
+            }
         }
+
+        // Scale down the ring over the same duration as note spawn time
+        if (isScalingRing)
+        {
+            ringElapsedTime += Time.deltaTime;
+
+            if (ringElapsedTime <= ringScaleDuration)
+            {
+                float t = ringElapsedTime / ringScaleDuration; // Calculate progress (0 to 1)
+                float currentScale = Mathf.Lerp(ringInitScaleFactor, 1f, t); // Interpolate the scale based on progress
+
+                if (spawnedRing != null)
+                {
+                    spawnedRing.transform.localScale = new Vector3(currentScale, currentScale, currentScale);
+                }
+                else
+                {
+                    Debug.Log("Ring object is null, nothing to scale");
+                }
+            }
+            else
+            {
+                // Ring scaling is complete
+                DestroySpawnedRing();
+                isScalingRing = false;
+            }
+        }
+
     }
 
     private void SpawnNotes(BeatMapLevel.Slice slice)
@@ -77,12 +130,79 @@ public class BeatMapLevelManager : MonoBehaviour
         }
     }
 
+    private void SpawnRing(BeatMapLevel.Slice slice)
+    {
+        // Calculate the beat to find the note in the next slice
+        int noteBeat = currentBeat + beatDistance;
+
+        Debug.Log($"Note Beat: {noteBeat}");
+
+        // Find the slice that matches the note beat
+        BeatMapLevel.Slice nextSlice = null;
+        foreach (BeatMapLevel.Slice noteSlice in levelData.slices)
+        {
+            if (noteSlice.spawnBeat == noteBeat)
+            {
+                nextSlice = noteSlice;
+                break;
+            }
+        }
+
+        if (nextSlice != null)
+        {
+            // Find the row and column to spawn the ring
+            int row = -1;
+            int col = -1;
+
+            if (!nextSlice.topLeft.isEmpty)
+            {
+                row = 0;
+                col = 0;
+            }
+            else if (!nextSlice.topRight.isEmpty)
+            {
+                row = 0;
+                col = 1;
+            }
+            else if (!nextSlice.bottomLeft.isEmpty)
+            {
+                row = 1;
+                col = 0;
+            }
+            else if (!nextSlice.bottomRight.isEmpty)
+            {
+                row = 1;
+                col = 1;
+            }
+
+            if (row != -1 && col != -1)
+            {
+                spawnedRing = SpawnRingObject(nextSlice, row, col);
+                ringScaleDuration = 0.5f;
+                ringElapsedTime = 0f;
+                isScalingRing = true;
+
+                Debug.Log($"Ring Spawned at Beat: {currentBeat}");
+            }
+            else
+            {
+                Debug.Log("No Ring Spawned");
+            }
+        }
+        else
+        {
+            Debug.Log("Next Slice not found");
+        }
+    }
+
+
+
     private GameObject SpawnNoteObject(BeatMapLevel.Note note, string noteObjectName)
     {
         if (!note.isEmpty)
         {
             // Spawn the note object based on the note data
-            GameObject noteObject = Instantiate(targetPrefab, GetSpawnPosition(noteObjectName), targetPrefab.transform.rotation, gridParent);
+            GameObject noteObject = Instantiate(notePrefab, GetSpawnPosition(noteObjectName), notePrefab.transform.rotation, gridParent);
 
             // Set the color of the note object based on the note color
             Renderer renderer = noteObject.GetComponent<Renderer>();
@@ -104,10 +224,21 @@ public class BeatMapLevelManager : MonoBehaviour
         return null;
     }
 
+    private GameObject SpawnRingObject(BeatMapLevel.Slice slice, int row, int col)
+    {
+        // Spawn the ring object based on the note data
+        GameObject ringObject = Instantiate(ringPrefab, GetSpawnPosition($"Note_{row}_{col}"), ringPrefab.transform.rotation, gridParent);
+
+        // Set any additional properties of the ring object based on the note data
+
+        return ringObject;
+    }
+
     private Vector3 GetSpawnPosition(string noteObjectName)
     {
         // Calculate the position offset based on the note object name
-        string[] splitName = noteObjectName.Split('_');
+        string[] splitName = noteObjectName.Split('_'); // Split the name by underscore
+        // Note name format: Note_{row}_{col}
         if (splitName.Length == 3 && int.TryParse(splitName[1], out int row) && int.TryParse(splitName[2], out int col))
         {
             return gridParent.TransformPoint(new Vector3(col * spacing, 0f, row * spacing));
@@ -130,9 +261,12 @@ public class BeatMapLevelManager : MonoBehaviour
         }
     }
 
-     private string GetNoteObjectName(int row, int col)
+    private void DestroySpawnedRing()
     {
-        return $"Note_{row}_{col}";
+        if (spawnedRing != null)
+        {
+            Destroy(spawnedRing);
+        }
     }
 
     private void OnDrawGizmos()
@@ -155,4 +289,8 @@ public class BeatMapLevelManager : MonoBehaviour
         }
     }
 
+    private string GetNoteObjectName(int row, int col)
+    {
+        return $"Note_{row}_{col}";
+    }
 }
