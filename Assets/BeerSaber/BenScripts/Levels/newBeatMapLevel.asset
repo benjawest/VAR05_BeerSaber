@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0784caaab11c816458a7ad1a89628c22, type: 3}
+  m_Name: newBeatMapLevel
+  m_EditorClassIdentifier: 
+  numberOfSlices: 20
+  noteFrequency: 4
+  slices:
+  - spawnBeat: 0
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 4
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 8
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 12
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 16
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 20
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 24
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 28
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 32
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 36
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 40
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 44
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 48
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 52
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 56
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 60
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 64
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 68
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 72
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 76
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
