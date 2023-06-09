@@ -12,14 +12,16 @@ public class VRShootInput : MonoBehaviour
     // add the hit to score;
     //}
 
+    //Input stuff
     [SerializeField] private bool activateTrigger = false;
-
     [SerializeField] private float debugLineDuration = 1.0f;
-
     [SerializeField] private float aimLineLength = 10f;
-
+    [SerializeField] private Vector3 handRotationOffset;
     private VRInputActions inputActions;
     Transform handTransform;
+    //Bullet stuff
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private float shootForce = 10f;
 
     private void Awake()
     {
@@ -48,23 +50,33 @@ public class VRShootInput : MonoBehaviour
     private void Shoot()
     {
         // Implement shooting here
+        // Adjust + Set shoot direction
+        Quaternion shootDirectionRotation = handTransform.rotation * Quaternion.Euler(handRotationOffset);
+
+        // Instantiate the projectile prefab
+        GameObject projectile = Instantiate(projectilePrefab, handTransform.position, shootDirectionRotation);
+
+        // Get the Rigidbody component of the projectile
+        Rigidbody projectileRigidbody = projectile.GetComponent<Rigidbody>();
+
+        // Apply a force or velocity to propel the projectile forward
+        projectileRigidbody.AddForce(shootDirectionRotation * Vector3.forward * shootForce, ForceMode.Impulse);
 
         // Debug simulation for testing
-        Vector3 shootDirection = handTransform.forward;
-        Debug.DrawRay(handTransform.position, shootDirection * 10f, Color.red, debugLineDuration);
+        Debug.DrawRay(handTransform.position, shootDirectionRotation * Vector3.forward, Color.red, debugLineDuration);
     }
 
     private void UpdateAimLine()
     {
 
-            // Calculate aim direction
-            Vector3 aimDirection = handTransform.forward;
+        // Calculate aim direction
+        Quaternion aimDirection = handTransform.rotation * Quaternion.Euler(handRotationOffset);
 
-            // Calculate end position of the aim line
-            Vector3 endPosition = handTransform.position + aimDirection * aimLineLength;
+        // Calculate end position of the aim line
+        Vector3 endPosition = handTransform.position + aimDirection * Vector3.forward * aimLineLength;
 
-            // Render the aim line as a debug draw line
-            Debug.DrawRay(handTransform.position, aimDirection * aimLineLength, Color.yellow);
+        // Render the aim line as a debug draw line
+        Debug.DrawRay(handTransform.position, aimDirection * Vector3.forward * aimLineLength, Color.yellow);
     }
 
 #if UNITY_EDITOR
