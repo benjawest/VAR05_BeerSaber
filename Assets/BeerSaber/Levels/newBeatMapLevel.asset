@@ -12,6 +12,5206 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0784caaab11c816458a7ad1a89628c22, type: 3}
   m_Name: newBeatMapLevel
   m_EditorClassIdentifier: 
-  numberOfSlices: 0
+  numberOfSlices: 400
   noteFrequency: 4
-  slices: []
+  slices:
+  - spawnBeat: 0
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 4
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 8
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 12
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 16
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 20
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 24
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 28
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 32
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 36
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 40
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 44
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 48
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 52
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 56
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 60
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 64
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 68
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 72
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 76
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 80
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 84
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 88
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 92
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 96
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 100
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 104
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 108
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 112
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 116
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 120
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 124
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 128
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 132
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 136
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 140
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 144
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 148
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 152
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 156
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 160
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 164
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 168
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 172
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 176
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 180
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 184
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 188
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 192
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 196
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 200
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 204
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 208
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 212
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 216
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 220
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 224
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 228
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 232
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 236
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 240
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 244
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 248
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 252
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 256
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 260
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 264
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 268
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 272
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 276
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 280
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 284
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 288
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 292
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 296
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 300
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 304
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 308
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 312
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 316
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 320
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 324
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 328
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 332
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 336
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 340
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 344
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 348
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 352
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 356
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 360
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 364
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 368
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 372
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 376
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 380
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 384
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 388
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 392
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 396
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 400
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 404
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 408
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 412
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 416
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 420
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 424
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 428
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 432
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 436
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 440
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 444
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 448
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 452
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 456
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 460
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 464
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 468
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 472
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 476
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 480
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 484
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 488
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 492
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 496
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 500
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 504
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 508
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 512
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 516
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 520
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 524
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 528
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 532
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 536
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 540
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 544
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 548
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 552
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 556
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 560
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 564
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 568
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 572
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 576
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 580
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 584
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 588
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 592
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 596
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 600
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 604
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 608
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 612
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 616
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 620
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 624
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 628
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 632
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 636
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 640
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 644
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 648
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 652
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 656
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 660
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 664
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 668
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 672
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 676
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 680
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 684
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 688
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 692
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 696
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 700
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 704
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 708
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 712
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 716
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 720
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 724
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 728
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 732
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 736
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 740
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 744
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 748
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 752
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 756
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 760
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 764
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 768
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 772
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 776
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 780
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 784
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 788
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 792
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 796
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 800
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 804
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 808
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 812
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 816
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 820
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 824
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 828
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 832
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 836
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 840
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 844
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 848
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 852
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 856
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 860
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 864
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 868
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 872
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 876
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 880
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 884
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 888
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 892
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 896
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 900
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 904
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 908
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 912
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 916
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 920
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 924
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 928
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 932
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 936
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 940
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 944
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 948
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 952
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 956
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 960
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 964
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 968
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 972
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 976
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 980
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 984
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 988
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 992
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 996
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1000
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1004
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1008
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1012
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1016
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1020
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1024
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1028
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1032
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1036
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1040
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1044
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1048
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1052
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1056
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1060
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1064
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1068
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1072
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1076
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1080
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1084
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1088
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1092
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1096
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1100
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1104
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1108
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1112
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1116
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1120
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1124
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1128
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1132
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1136
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1140
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1144
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1148
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1152
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1156
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1160
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1164
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1168
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1172
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1176
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1180
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1184
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1188
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1192
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1196
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1200
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1204
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1208
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1212
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1216
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1220
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1224
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1228
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1232
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1236
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1240
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1244
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1248
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1252
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1256
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1260
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1264
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1268
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1272
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1276
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1280
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1284
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1288
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1292
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1296
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1300
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1304
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1308
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1312
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1316
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1320
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1324
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1328
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1332
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1336
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1340
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1344
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1348
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1352
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1356
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1360
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1364
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1368
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1372
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1376
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1380
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1384
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1388
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1392
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1396
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1400
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1404
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1408
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1412
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1416
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1420
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1424
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1428
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1432
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1436
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1440
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1444
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1448
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1452
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1456
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1460
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1464
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1468
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1472
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1476
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1480
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1484
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1488
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1492
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1496
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1500
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1504
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1508
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1512
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1516
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1520
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1524
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1528
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1532
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1536
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1540
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1544
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1548
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 0
+  - spawnBeat: 1552
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1556
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1560
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1564
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1568
+    topRight:
+      color: 0
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1572
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1576
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1580
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 1
+      isEmpty: 0
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1584
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
+  - spawnBeat: 1588
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 1
+      isEmpty: 0
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1592
+    topRight:
+      color: 1
+      isEmpty: 0
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 0
+      isEmpty: 1
+  - spawnBeat: 1596
+    topRight:
+      color: 0
+      isEmpty: 1
+    topLeft:
+      color: 0
+      isEmpty: 1
+    bottomRight:
+      color: 0
+      isEmpty: 1
+    bottomLeft:
+      color: 1
+      isEmpty: 0
