@@ -8,6 +8,7 @@ public class Metronome : MonoBehaviour
     public int BPM = 150;
     private int previousBeat = -1;
     private double audioStartTime;
+    public float BeatDuration => 60f / BPM; // This is the duration of a single beat, in seconds
 
     // => this arrow shows that this is a "property".
     private double elapsedAudioTime => AudioSettings.dspTime - audioStartTime; // This is the time since the audio source started playing

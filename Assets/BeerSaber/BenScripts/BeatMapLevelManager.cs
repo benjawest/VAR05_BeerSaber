@@ -19,6 +19,7 @@ public class BeatMapLevelManager : MonoBehaviour
     private bool isScalingRing = false; // Flag to indicate if ring scaling is in progress
     // Scale factor for the ring
     public float ringInitScaleFactor = 3f;
+    public float ringFinalScaleFactor = 0.5f;
 
     private void Update()
     {
@@ -72,7 +73,7 @@ public class BeatMapLevelManager : MonoBehaviour
             if (ringElapsedTime <= ringScaleDuration)
             {
                 float t = ringElapsedTime / ringScaleDuration; // Calculate progress (0 to 1)
-                float currentScale = Mathf.Lerp(ringInitScaleFactor, 1f, t); // Interpolate the scale based on progress
+                float currentScale = Mathf.Lerp(ringInitScaleFactor, ringFinalScaleFactor, t); // Interpolate the scale based on progress
 
                 if (spawnedRing != null)
                 {
@@ -178,7 +179,7 @@ public class BeatMapLevelManager : MonoBehaviour
             if (row != -1 && col != -1)
             {
                 spawnedRing = SpawnRingObject(nextSlice, row, col);
-                ringScaleDuration = 0.5f;
+                ringScaleDuration = metronome.BeatDuration;
                 ringElapsedTime = 0f;
                 isScalingRing = true;
 

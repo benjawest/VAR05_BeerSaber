@@ -28,8 +28,6 @@ public class BeatMapLevel : ScriptableObject
     {
         public NoteColor color;
         public bool isEmpty = true;
-        public float spawnTime;
-        public float despawnTime;
     }
 
     public int numberOfSlices = 0;
@@ -52,8 +50,6 @@ public class BeatMapLevel : ScriptableObject
             Note note = new Note();
             note.color = (NoteColor)random.Next(0, 2);
             note.isEmpty = false;
-            note.spawnTime = i; // Set the spawn time based on your requirements
-            note.despawnTime = i + 1; // Set the despawn time based on your requirements
 
             // Select a random position for the normal note within the slice
             int randomPosition = random.Next(0, 4);
