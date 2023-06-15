@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using TMPro;
+using UnityEngine.InputSystem;
 
 public class BeatMapLevelManager : MonoBehaviour
 {
@@ -12,6 +14,10 @@ public class BeatMapLevelManager : MonoBehaviour
     public int beatDistance = 2;
     public float ringInitScaleFactor = 3f;
     public float ringFinalScaleFactor = 0.5f;
+    public TextMeshProUGUI missCountText;
+    public TextMeshProUGUI hitCountText;
+    public int hitCount = 0;
+    public int missCount = 0;
 
     private int currentBeat = -1;
     private GameObject[] spawnedNotes;
@@ -31,9 +37,41 @@ public class BeatMapLevelManager : MonoBehaviour
             NewBeatSpawnObjects();
         }
 
+        // Check if the player has pressed the space bar
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            Debug.Log("Space bar was pressed");
+            // Destroy any spawned notes and add one to the hit count for each note destroyed
+            DebugDestroyNotes();
+
+        }
+
         if (isScalingRing)
         {
             ScaleRing();
+        }
+    }
+
+    private void DebugDestroyNotes()
+    {
+        if (spawnedNotes != null)
+        {
+            foreach (GameObject noteObject in spawnedNotes)
+            {
+                if (noteObject != null)
+                {
+                    hitCount++;
+                    if(hitCountText != null)
+                    {
+                        hitCountText.text = $"Hits: {hitCount.ToString("D3")}";
+                    }
+                    else
+                    {
+                        Debug.Log("Hit count text is null");
+                    }
+                    Destroy(noteObject);
+                }
+            }
         }
     }
 
@@ -193,6 +231,15 @@ public class BeatMapLevelManager : MonoBehaviour
             {
                 if (noteObject != null)
                 {
+                    // Update missCountText to have the format "Miss: {missCount}"
+                    missCount++;
+                    if( missCountText != null)
+                    {
+                        missCountText.text = $"Miss: {missCount.ToString("D3")}";
+                    }
+                    else {Debug.Log("Miss count text is null");}
+
+
                     Destroy(noteObject);
                 }
             }

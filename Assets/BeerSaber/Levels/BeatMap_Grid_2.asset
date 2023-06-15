@@ -12,7 +12,1107 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0784caaab11c816458a7ad1a89628c22, type: 3}
   m_Name: BeatMap_Grid_2
   m_EditorClassIdentifier: 
-  numberOfSlices: 1
+  numberOfSlices: 100
   noteFrequency: 4
   gridSize: 2
-  slices: []
+  slices:
+  - spawnBeat: 0
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 4
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 8
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 12
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 16
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 20
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 24
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 28
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 32
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 36
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 40
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 44
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 48
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 52
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 56
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 60
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 64
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 68
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 72
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 76
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 80
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 84
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 88
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 92
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 96
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 100
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 104
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 108
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 112
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 116
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 120
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 124
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 128
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 132
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 136
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 140
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 144
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 148
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 152
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 156
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 160
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 164
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 168
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 172
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 176
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 180
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 184
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 188
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 192
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 196
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 200
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 204
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 208
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 212
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 216
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 220
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 224
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 228
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 232
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 236
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 240
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 244
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 248
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 252
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 256
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 260
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 264
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 268
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 272
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 276
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 280
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 284
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 288
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 292
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 296
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 300
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 304
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 308
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 312
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 316
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 320
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 324
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 328
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 332
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 336
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 340
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 344
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 348
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+  - spawnBeat: 352
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 356
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 360
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 364
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 368
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 372
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 376
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+  - spawnBeat: 380
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 384
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 388
+    gridSize: 2
+    notes:
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 392
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+  - spawnBeat: 396
+    gridSize: 2
+    notes:
+    - color: 0
+      isEmpty: 1
+    - color: 0
+      isEmpty: 1
+    - color: 1
+      isEmpty: 0
+    - color: 0
+      isEmpty: 1
