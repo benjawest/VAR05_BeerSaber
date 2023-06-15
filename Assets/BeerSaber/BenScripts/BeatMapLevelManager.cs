@@ -17,81 +17,82 @@ public class BeatMapLevelManager : MonoBehaviour
     private float ringScaleDuration; // Duration to scale down the ring
     private float ringElapsedTime; // Elapsed time for scaling the ring
     private bool isScalingRing = false; // Flag to indicate if ring scaling is in progress
+    private int newBeat;
     // Scale factor for the ring
     public float ringInitScaleFactor = 3f;
     public float ringFinalScaleFactor = 0.5f;
 
     private void Update()
     {
-        int newBeat = metronome.currentBeat;
+        newBeat = metronome.currentBeat;
         if (newBeat != currentBeat) // If the beat has changed
         {
             currentBeat = newBeat;
-
-            // Destroy previously spawned notes
             DestroySpawnedNotes();
-            
+            NewBeatSpawnObjects();   
+        }
 
-            // Find the slice that matches the current beat
-            BeatMapLevel.Slice currentSlice = null;
-            BeatMapLevel.Slice nextSlice = null;
+        if (isScalingRing)
+        {
+            ScaleRing(); 
+        }
+    }
 
-            foreach (BeatMapLevel.Slice slice in levelData.slices)
+    // Spawn the notes and rings for the current slice
+    private void NewBeatSpawnObjects()
+    {
+        BeatMapLevel.Slice currentSlice = null;
+        BeatMapLevel.Slice nextSlice = null;
+        // Find the slices that match current and next beat to spawn the notes and ring
+        foreach (BeatMapLevel.Slice slice in levelData.slices)
+        {
+            if (slice.spawnBeat == currentBeat)
             {
-                if (slice.spawnBeat == currentBeat)
-                {
-                    currentSlice = slice;
-                    break;
-                }
-                else if (slice.spawnBeat == currentBeat + beatDistance)
-                {
-                    nextSlice = slice;
-                }
+                currentSlice = slice;
+                break;
             }
-
-
-            if (currentSlice != null)
+            else if (slice.spawnBeat == currentBeat + beatDistance)
             {
-                Debug.Log($"Current Beat: {currentBeat}");
-               
-                // Spawn the notes for the current slice
-                SpawnNotes(currentSlice);
-            }
-
-            if (nextSlice != null)
-            {
-                // Spawn the ring for the next slice
-                SpawnRing(nextSlice);
+                nextSlice = slice;
             }
         }
 
-        // Scale down the ring over the same duration as note spawn time
-        if (isScalingRing)
+        if (currentSlice != null)
         {
-            ringElapsedTime += Time.deltaTime;
+            Debug.Log($"Spawning Notes on Beat: {currentBeat}");
+            SpawnNotes(currentSlice); // Spawn the notes for the current slice
+        }
 
-            if (ringElapsedTime <= ringScaleDuration)
+        if (nextSlice != null)
+        {
+            
+            SpawnRing(nextSlice); // Spawn the ring for the next slice
+        }
+    }
+
+    private void ScaleRing()
+    {
+        ringElapsedTime += Time.deltaTime;
+        if (ringElapsedTime <= ringScaleDuration)
+        {
+            float t = ringElapsedTime / ringScaleDuration; // Calculate progress (0 to 1)
+            float currentScale = Mathf.Lerp(ringInitScaleFactor, ringFinalScaleFactor, t); // Interpolate the scale based on progress
+
+            if (spawnedRing != null)
             {
-                float t = ringElapsedTime / ringScaleDuration; // Calculate progress (0 to 1)
-                float currentScale = Mathf.Lerp(ringInitScaleFactor, ringFinalScaleFactor, t); // Interpolate the scale based on progress
-
-                if (spawnedRing != null)
-                {
-                    spawnedRing.transform.localScale = new Vector3(currentScale, currentScale, currentScale);
-                }
-                else
-                {
-                    Debug.Log("Ring object is null, nothing to scale");
-                }
+                spawnedRing.transform.localScale = new Vector3(currentScale, currentScale, currentScale);
             }
             else
             {
-                // Ring scaling is complete
-                DestroySpawnedRing();
-                isScalingRing = false;
+                Debug.Log("Ring object is null, nothing to scale");
             }
         }
-
+        else
+        {
+            // Ring scaling is complete
+            DestroySpawnedRing();
+            isScalingRing = false;
+        }
     }
 
     private void SpawnNotes(BeatMapLevel.Slice slice)
@@ -133,10 +134,9 @@ public class BeatMapLevelManager : MonoBehaviour
 
     private void SpawnRing(BeatMapLevel.Slice slice)
     {
-        // Calculate the beat to find the note in the next slice
+        // What is the beat we are spawning the ring on?
         int noteBeat = currentBeat + beatDistance;
-
-        Debug.Log($"Note Beat: {noteBeat}");
+        Debug.Log($"Spawning ring at beat: {currentBeat} for slice: {noteBeat}");
 
         // Find the slice that matches the note beat
         BeatMapLevel.Slice nextSlice = null;
@@ -185,18 +185,11 @@ public class BeatMapLevelManager : MonoBehaviour
 
                 Debug.Log($"Ring Spawned at Beat: {currentBeat}");
             }
-            else
-            {
-                Debug.Log("No Ring Spawned");
-            }
+            else { Debug.Log("No Ring Spawned"); } 
         }
         else
-        {
-            Debug.Log("Next Slice not found");
-        }
+        { Debug.Log("Next Slice not found");}
     }
-
-
 
     private GameObject SpawnNoteObject(BeatMapLevel.Note note, string noteObjectName)
     {
@@ -218,20 +211,15 @@ public class BeatMapLevelManager : MonoBehaviour
                     renderer.material.color = Color.blue;
                 }
             }
-
             return noteObject;
         }
-
         return null;
     }
 
     private GameObject SpawnRingObject(BeatMapLevel.Slice slice, int row, int col)
     {
-        // Spawn the ring object based on the note data
+        // Spawn outer Ring
         GameObject ringObject = Instantiate(ringPrefab, GetSpawnPosition($"Note_{row}_{col}"), ringPrefab.transform.rotation, gridParent);
-
-        // Set any additional properties of the ring object based on the note data
-
         return ringObject;
     }
 
@@ -244,7 +232,6 @@ public class BeatMapLevelManager : MonoBehaviour
         {
             return gridParent.TransformPoint(new Vector3(col * spacing, 0f, row * spacing));
         }
-
         return gridParent.position;
     }
 
@@ -270,7 +257,7 @@ public class BeatMapLevelManager : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmos() // Debug function to draw gizmos in the editor for where the notes will spawn
     {
         if (gridParent != null)
         {

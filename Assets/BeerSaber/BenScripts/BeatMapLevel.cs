@@ -10,8 +10,8 @@ public class BeatMapLevel : ScriptableObject
     [Serializable]
     public class Slice
     {
-        public int spawnBeat;
-
+        public int spawnBeat; // The beat at which the slice will spawn
+        public int gridSize = 2; // The size of the grid for the slice
         public Note topRight = new Note();
         public Note topLeft = new Note();
         public Note bottomRight = new Note();
