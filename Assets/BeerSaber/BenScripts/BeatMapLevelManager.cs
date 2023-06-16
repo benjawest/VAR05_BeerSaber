@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class BeatMapLevelManager : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class BeatMapLevelManager : MonoBehaviour
     public TextMeshProUGUI hitCountText;
     public int hitCount = 0;
     public int missCount = 0;
+    public GameObject particleSystemPrefab; // Reference to the particle system prefab
+    public float particleDuration = 1f; // Duration of the particle system before it's destroyed
+
 
     private int currentBeat = -1;
     private GameObject[] spawnedNotes;
@@ -238,8 +242,8 @@ public class BeatMapLevelManager : MonoBehaviour
                         missCountText.text = $"Miss: {missCount.ToString("D3")}";
                     }
                     else {Debug.Log("Miss count text is null");}
-
-
+                    // instantiate a particle system at the noteObject's position
+                    SpawnParticleSystem(noteObject.transform.position);
                     Destroy(noteObject);
                 }
             }
@@ -268,4 +272,24 @@ public class BeatMapLevelManager : MonoBehaviour
             }
         }
     }
+
+    private void SpawnParticleSystem(Vector3 position)
+    {
+        GameObject particleSystemObject = Instantiate(particleSystemPrefab, position, Quaternion.identity);
+        ParticleSystem particleSystem = particleSystemObject.GetComponent<ParticleSystem>();
+
+        // Customize the particle system properties if needed
+        // For example, you can modify particleSystem.startColor to change the color of the particles
+
+        particleSystem.Play(); // Start playing the particle system
+
+        StartCoroutine(DestroyParticleSystem(particleSystemObject, particleDuration));
+    }
+
+    private IEnumerator DestroyParticleSystem(GameObject particleSystemObject, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Destroy(particleSystemObject);
+    }
+
 }
