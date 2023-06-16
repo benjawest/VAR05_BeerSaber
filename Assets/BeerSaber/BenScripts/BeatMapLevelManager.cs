@@ -19,10 +19,13 @@ public class BeatMapLevelManager : MonoBehaviour
     public TextMeshProUGUI hitCountText;
     public int hitCount = 0;
     public int missCount = 0;
+    public int missStreak = 0;
+
     public GameObject missParticlePrefab;
     public GameObject hitParticlePrefab; 
     public float particleDuration = 1f; // Duration of the particle system before it's destroyed
-
+    public AudioClip hitSound;
+    public AudioClip missSound;
 
     private int currentBeat = -1;
     private GameObject[] spawnedNotes;
@@ -31,6 +34,14 @@ public class BeatMapLevelManager : MonoBehaviour
     private float ringElapsedTime;
     private bool isScalingRing = false;
     private int newBeat;
+    private AudioSource audioSource;
+    private AudioFilterController audioFilterController;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioFilterController = metronome.GetComponent<AudioFilterController>();
+    }
 
     private void Update()
     {
@@ -40,6 +51,15 @@ public class BeatMapLevelManager : MonoBehaviour
             currentBeat = newBeat;
             DestroySpawnedNotes();
             NewBeatSpawnObjects();
+
+            if (missStreak > 0)
+            {
+                audioFilterController.inputRange = 0f;
+            }
+            else 
+            {                 
+                audioFilterController.inputRange = 1f;
+            }
         }
 
         // Check if the player has pressed the space bar
@@ -55,6 +75,8 @@ public class BeatMapLevelManager : MonoBehaviour
         {
             ScaleRing();
         }
+
+        
     }
 
     private void DebugDestroyNotes()
@@ -228,12 +250,21 @@ public class BeatMapLevelManager : MonoBehaviour
                 if (noteObject != null)
                 {
                     // Update missCountText to have the format "Miss: {missCount}"
-                    missCount++;
+                    missCount++; missStreak++;
                     if( missCountText != null)
                     {
                         missCountText.text = $"Miss: {missCount.ToString("D3")}";
                     }
                     else {Debug.Log("Miss count text is null");}
+                    
+                    // play oneshot of miss sound
+                    if(missSound != null)
+                    {
+                        audioSource.PlayOneShot(missSound);
+                    }
+                    else { Debug.Log("Miss sound is null");}
+
+                    
                     // instantiate the miss particle system at the noteObject's position
                     if(missParticlePrefab != null)
                     {
@@ -292,6 +323,8 @@ public class BeatMapLevelManager : MonoBehaviour
         // Check if the noteObject is valid
         if (noteObject != null)
         {
+            missStreak = 0;
+            
             // Update the hit count
             hitCount++;
             if (hitCountText != null)
@@ -307,6 +340,11 @@ public class BeatMapLevelManager : MonoBehaviour
             if(hitParticlePrefab != null)
             {
                 SpawnParticleSystem(hitParticlePrefab, noteObject.transform.position);
+            }
+            //play oneshot of the hit sound
+            if(hitSound != null)
+            {
+                audioSource.PlayOneShot(hitSound);
             }
             // Destroy the note object
             Destroy(noteObject);
