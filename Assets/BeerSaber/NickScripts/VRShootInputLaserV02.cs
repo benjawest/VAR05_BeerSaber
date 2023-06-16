@@ -35,8 +35,7 @@ public class VRShootInputLaserV02 : MonoBehaviour
     [SerializeField] private bool physicsHit = false;
     [SerializeField] private AudioSource rightGunAudioSource;
     [SerializeField] private AudioSource leftGunAudioSource;
-    // AudioClip list of sound to cycle through for gun shots
-    [SerializeField] private AudioClip[] shootSounds;
+    [SerializeField] private AudioClip shootSound;
 
 
     private void Awake()
@@ -114,14 +113,11 @@ public class VRShootInputLaserV02 : MonoBehaviour
 
         if (handTransform == rightHandTransform && rightGunAudioSource != null)
         {
-            // pick a random shoot sound from the list
-            AudioClip shootSound = shootSounds[Random.Range(0, shootSounds.Length)];
             rightGunAudioSource.PlayOneShot(shootSound);
             
         }
         else if (handTransform == leftHandTransform && leftGunAudioSource != null)
         {
-            AudioClip shootSound = shootSounds[Random.Range(0, shootSounds.Length)];
             leftGunAudioSource.PlayOneShot(shootSound);
         }
 
