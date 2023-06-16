@@ -28,11 +28,6 @@ public class MenuManager : MonoBehaviour
 
         // Get the script MenuRaycaster on rightHandObject
         menuRaycaster = rightHandObject.GetComponent<MenuRaycaster>();
-
-        // Enable the script MenuRaycaster on rightHandObject
-        //menuRaycaster.enabled = true;
-
-
     }
 
     // Update is called once per frame

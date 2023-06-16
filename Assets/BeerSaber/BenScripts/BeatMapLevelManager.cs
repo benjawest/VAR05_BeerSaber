@@ -19,7 +19,8 @@ public class BeatMapLevelManager : MonoBehaviour
     public TextMeshProUGUI hitCountText;
     public int hitCount = 0;
     public int missCount = 0;
-    public GameObject particleSystemPrefab; // Reference to the particle system prefab
+    public GameObject missParticlePrefab;
+    public GameObject hitParticlePrefab; 
     public float particleDuration = 1f; // Duration of the particle system before it's destroyed
 
 
@@ -64,16 +65,7 @@ public class BeatMapLevelManager : MonoBehaviour
             {
                 if (noteObject != null)
                 {
-                    hitCount++;
-                    if(hitCountText != null)
-                    {
-                        hitCountText.text = $"Hits: {hitCount.ToString("D3")}";
-                    }
-                    else
-                    {
-                        Debug.Log("Hit count text is null");
-                    }
-                    Destroy(noteObject);
+                    NoteHit(noteObject);
                 }
             }
         }
@@ -242,8 +234,13 @@ public class BeatMapLevelManager : MonoBehaviour
                         missCountText.text = $"Miss: {missCount.ToString("D3")}";
                     }
                     else {Debug.Log("Miss count text is null");}
-                    // instantiate a particle system at the noteObject's position
-                    SpawnParticleSystem(noteObject.transform.position);
+                    // instantiate the miss particle system at the noteObject's position
+                    if(missParticlePrefab != null)
+                    {
+                        SpawnParticleSystem(missParticlePrefab, noteObject.transform.position);
+                    }
+                    else { Debug.Log("Miss particle prefab is null");}
+                    
                     Destroy(noteObject);
                 }
             }
@@ -273,23 +270,49 @@ public class BeatMapLevelManager : MonoBehaviour
         }
     }
 
-    private void SpawnParticleSystem(Vector3 position)
+    private void SpawnParticleSystem(GameObject particlePrefab, Vector3 position)
     {
-        GameObject particleSystemObject = Instantiate(particleSystemPrefab, position, Quaternion.identity);
+        GameObject particleSystemObject = Instantiate(particlePrefab, position, Quaternion.identity);
         ParticleSystem particleSystem = particleSystemObject.GetComponent<ParticleSystem>();
-
-        // Customize the particle system properties if needed
-        // For example, you can modify particleSystem.startColor to change the color of the particles
 
         particleSystem.Play(); // Start playing the particle system
 
         StartCoroutine(DestroyParticleSystem(particleSystemObject, particleDuration));
     }
 
+
     private IEnumerator DestroyParticleSystem(GameObject particleSystemObject, float delay)
     {
         yield return new WaitForSeconds(delay);
         Destroy(particleSystemObject);
+    }
+
+    public void NoteHit(GameObject noteObject)
+    {
+        // Check if the noteObject is valid
+        if (noteObject != null)
+        {
+            // Update the hit count
+            hitCount++;
+            if (hitCountText != null)
+            {
+                hitCountText.text = $"Hits: {hitCount.ToString("D3")}";
+            }
+            else
+            {
+                Debug.Log("Hit count text is null");
+            }
+            
+            
+            if(hitParticlePrefab != null)
+            {
+                SpawnParticleSystem(hitParticlePrefab, noteObject.transform.position);
+            }
+            // Destroy the note object
+            Destroy(noteObject);
+
+           
+        }
     }
 
 }
