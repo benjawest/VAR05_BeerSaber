@@ -11,7 +11,7 @@ public class Tunneleffect : MonoBehaviour
 
     public Vector3 initialPosition;
 
-   public void Awake()
+    public void Awake()
     {
         initialPosition = transform.position;
     }
