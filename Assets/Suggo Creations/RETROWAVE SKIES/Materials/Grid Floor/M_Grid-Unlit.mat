@@ -57,6 +57,8 @@ Material:
     - _GridRotation: 0
     - _GridWidth: 0.1
     - _Metallic: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _RoundEdges: 0.01
     - _Smoothness: 0
     m_Colors:
