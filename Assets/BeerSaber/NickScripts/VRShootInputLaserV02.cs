@@ -102,7 +102,7 @@ public class VRShootInputLaserV02 : MonoBehaviour
             }
             else if (destroyOnHit == false && physicsHit == true)
             {
-                Rigidbody rb = hit.collider.GetComponent<Rigidbody>();
+                Rigidbody rb = hit.collider.GetComponentInParent<Rigidbody>();
                 if (rb != null)
                 {
                     Debug.Log("PhysicsHit: " + hit.collider.gameObject.name);
