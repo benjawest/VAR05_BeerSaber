@@ -103,7 +103,6 @@ public class BeatMapLevelManager : MonoBehaviour
             if (slice.spawnBeat == currentBeat)
             {
                 currentSlice = slice;
-                break;
             }
             else if (slice.spawnBeat == currentBeat + beatDistance)
             {
@@ -195,6 +194,7 @@ public class BeatMapLevelManager : MonoBehaviour
 
             if (index != -1)
             {
+                DestroySpawnedRing();
                 spawnedRing = SpawnRingObject(nextSlice, index);
                 ringScaleDuration = metronome.BeatDuration;
                 ringElapsedTime = 0f;
