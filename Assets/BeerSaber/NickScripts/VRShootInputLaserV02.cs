@@ -37,6 +37,8 @@ public class VRShootInputLaserV02 : MonoBehaviour
     [SerializeField] private AudioSource leftGunAudioSource;
     // AudioClip list of sound to cycle through for gun shots
     [SerializeField] private AudioClip[] shootSounds;
+    // UI scroll wheel
+    [SerializeField] private GameObject scrollWheel;
 
 
     private void Awake()
@@ -51,6 +53,19 @@ public class VRShootInputLaserV02 : MonoBehaviour
 
     private void Update()
     {
+        // UI menu control
+        
+        // Check right joystick input
+        Vector2 joystickInput = inputActions.Default.RightJoystick.ReadValue<Vector2>();
+        float rotationInput = joystickInput.y;
+
+        // Adjust the rotation speed based on the input value
+        float rotationSpeed = 100.0f;
+        float rotationAmount = rotationInput * rotationSpeed * Time.deltaTime;
+
+        // Rotate the game object on the X-axis
+        scrollWheel.transform.Rotate(rotationAmount, 0, 0);
+
         if (rightTriggerActivated || inputActions.Default.RightTrigger.WasPressedThisFrame())
         {
             Debug.Log("Right Trigger was pressed this frame");

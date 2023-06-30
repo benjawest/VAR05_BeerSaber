@@ -6,18 +6,23 @@ public class UIManager : MonoBehaviour
     public UnityEvent onSelectButtonHit;
     public UnityEvent onBackButtonHit;
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Bullet")) // Customize this with the appropriate tag for your bullet
-        {
-            GameObject collidedObject = collision.gameObject;
+    [SerializeField] private Collider selectButtonCollider;
+    [SerializeField] private Collider backButtonCollider;
 
-            if (collidedObject.CompareTag("SelectButton")) // Customize this with the appropriate tag for your select button
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            Debug.Log("Bullet hit something");
+
+            if (selectButtonCollider.bounds.Intersects(other.bounds))
             {
+                Debug.Log("Bullet hit select");
                 onSelectButtonHit?.Invoke();
             }
-            else if (collidedObject.CompareTag("BackButton")) // Customize this with the appropriate tag for your back button
+            else if (backButtonCollider.bounds.Intersects(other.bounds))
             {
+                Debug.Log("Bullet hit back");
                 onBackButtonHit?.Invoke();
             }
         }

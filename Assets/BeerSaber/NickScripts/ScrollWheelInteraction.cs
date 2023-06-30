@@ -3,11 +3,20 @@ using UnityEngine.UI;
 
 public class ScrollWheelInteraction : MonoBehaviour
 {
-    public Image[] images;
+    public Image[] MainMenuimages;
+    public Image[] SongMenuimages;
+    public Image[] GunMenuimages;
+    public Image[] Extrasimages;
+
+    private Image[] canvasImages;
+
     public float rotationThreshold = 30f;
     public Transform rotationObject; // Reference to the object with the X-axis rotation
 
+
+    public int canvasGroupIndex = 0;
     public int selectedIndex = 0;
+
     public float accumulatedRotation = 0f;
     public float previousXRotation;
 
@@ -20,7 +29,7 @@ public class ScrollWheelInteraction : MonoBehaviour
     void Start()
     {
         previousXRotation = rotationObject.rotation.eulerAngles.x;
-        SelectImage(selectedIndex, selectedColor, deselectedColor);
+        SelectImage(canvasGroupIndex, selectedIndex, selectedColor, deselectedColor);
     }
 
     void Update()
@@ -76,29 +85,98 @@ public class ScrollWheelInteraction : MonoBehaviour
         uiEvents.SetSelectedIndex(selectedIndex);
     }
 
-    void SelectImage(int index, Color selectedColor, Color deselectedColor)
+    void SelectImage(int canvasIndex, int index, Color selectedColor, Color deselectedColor)
     {
-        // Reset all images to unselected color
-        for (int i = 0; i < images.Length; i++)
+
+        if (canvasIndex == 0)
         {
-            images[i].color = deselectedColor;
+            canvasImages = MainMenuimages;
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Set the selected image to the custom color
+            canvasImages[index].color = selectedColor;
+            selectedIndex = index;
+        }
+        if(canvasIndex == 1)
+        {
+            canvasImages = SongMenuimages;
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Set the selected image to the custom color
+            canvasImages[index].color = selectedColor;
+            selectedIndex = index;
+        }
+        if (canvasIndex == 2)
+        {
+            canvasImages = GunMenuimages;
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Set the selected image to the custom color
+            canvasImages[index].color = selectedColor;
+            selectedIndex = index;
+        }
+        if (canvasIndex == 3)
+        {
+            canvasImages = Extrasimages;
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Reset all images to unselected color
+            for (int i = 0; i < canvasImages.Length; i++)
+            {
+                canvasImages[i].color = deselectedColor;
+            }
+
+            // Set the selected image to the custom color
+            canvasImages[index].color = selectedColor;
+            selectedIndex = index;
         }
 
-        // Set the selected image to the custom color
-        images[index].color = selectedColor;
-        selectedIndex = index;
     }
 
     void SelectNextImage()
     {
-        int nextIndex = (selectedIndex + 1) % images.Length;
-        SelectImage(nextIndex, selectedColor, deselectedColor);
+        int nextIndex = (selectedIndex + 1) % canvasImages.Length;
+        SelectImage(canvasGroupIndex, nextIndex, selectedColor, deselectedColor);
     }
 
     void SelectPreviousImage()
     {
-        int previousIndex = (selectedIndex - 1 + images.Length) % images.Length;
-        SelectImage(previousIndex, selectedColor, deselectedColor);
+        int previousIndex = (selectedIndex - 1 + canvasImages.Length) % canvasImages.Length;
+        SelectImage(canvasGroupIndex, previousIndex, selectedColor, deselectedColor);
     }
 }
 

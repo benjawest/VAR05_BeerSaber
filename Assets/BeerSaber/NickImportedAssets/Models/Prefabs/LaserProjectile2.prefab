@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3353867016671890229}
   - component: {fileID: 3353867016665424351}
   - component: {fileID: 549401243909588856}
+  - component: {fileID: 312917288945361797}
   m_Layer: 0
   m_Name: LaserProjectile2
   m_TagString: Bullet
@@ -118,3 +119,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserSpeed: 200
   destroyDelay: 5
+--- !u!65 &312917288945361797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353867016671012289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.25, z: 30.25}
+  m_Center: {x: 0, y: 0, z: 15}
